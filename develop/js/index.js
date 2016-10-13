@@ -18,6 +18,11 @@ More.onclick = function(){
 		After.classList.toggle("hid");
 	}, 2000);
 }
+var Close = document.querySelector(".ad-close"),
+	Ad = document.querySelector(".ad");
+Close.onclick = function(){
+	Ad.style.display = "none";
+}
 /*[{"src":"http://inews.gtimg.com/newsapp_ls/0/674061045_200160/0","title":"火箭vs鹈鹕精彩视频：哈登杂耍运球送妙传 悍将神奇补扣","text":"","special":"flag11","comment":"9"},
 {"src":"http://inews.gtimg.com/newsapp_ls/0/673428579_150120/0","title":"曝孙杨已有私生子 前女友独立将孩子抚养至2岁","text":"近日，全明星探接到孙杨前女友李莹念身边知情人爆...","special":"flag4","comment":"6842"},
 {"src":"http://inews.gtimg.com/newsapp_ls/0/673544709_150120/0","title":"揭秘孙杨绯闻“孩子他妈” 否认是小三并已相识6年","text":"北京时间10月12日消息，据全明星探报道，运动...","special":"flag4","comment":"249"},
